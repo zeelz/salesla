@@ -1,0 +1,73 @@
+.navbar>.container-fluid {
+    /* justify-content: start; */
+    /* gap: 20px; */
+}
+
+.navbar-toggler {
+    border: none;
+    padding: 0;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    display: inline-flex;
+    background: rgba(40, 65, 207, 0.663);
+    justify-content: center;
+    align-items: center;
+}
+
+.icon i {
+    color:rgba(40, 65, 207, 1);
+}
+
+.rounded-pill-start {
+    border-radius: 50rem 0 0 50rem !important;
+}
+.rounded-pill-end {
+    border-radius: 0 50rem 50rem 0 !important;
+}
+
+.dropdown-menu.show {
+    min-width: 8rem!important;
+}
+
+.dropdown.country-selector button {
+    width: 8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dropdown.country-selector span {
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.bg-darker,
+.btn-darker, .btn-darker:hover {
+    color: #fff;
+    background-color: #111111;
+    border-color: #111111;
+}
+
+.rounded-5 {
+    border-radius: 0.5rem!important;
+}
+
+.bg-primary-transparent {
+    background-color: rgb(13 109 253 / 30%)!important;
+}
+
+.bg-success-transparent {
+    background-color: rgb(25 135 84 / 30%)!important
+}
+
+.bg-warning-transparent {
+    background-color: rgb(255 193 7 / 30%)!important;
+}
+
+.dashboard-cards p.figure {
+    font-size: 2.5rem;
+}

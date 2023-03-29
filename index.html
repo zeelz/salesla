@@ -1,0 +1,220 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-darker">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+            <div class="d-flex justify-space-between">
+                <button class="navbar-toggler px-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <a class="navbar-brand" href="#">
+                    <img src="./assets/salesla-logo.png" width="130" alt="">
+                </a>
+            </div>
+
+            <!-- <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle rounded-pill" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                  <span class="icon"><i class="bi bi-file-earmark-text-fill text-white"></i></span>
+                </button>
+                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                  <li><a class="dropdown-item active" href="#">In</a></li>
+                  <li><a class="dropdown-item" href="#">Ng</a></li>
+                  <li><a class="dropdown-item" href="#">Uk</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">US</a></li>
+                </ul>
+            </div> -->
+
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="page2.html">Page 2</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="d-flex gap-3">
+
+                <!-- <div class="input-group w-auto">
+                    <span class="input-group-text rounded-pill-start bg-white border-end-0" id="basic-addon1">
+                        <img src="./assets/amazon.svg" width="30" alt="">
+                    </span>
+            
+                    <select class="form-select rounded-pill-end border-start-0" aria-label="Default select example">
+                        <option selected>Menu</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+
+                </div> -->
+                
+                <div class="dropdown country-selector">
+                    <button class="btn btn-darker dropdown-toggle rounded-pill" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                        <!-- <span class="icon"><i class="bi bi-file-earmark-text-fill text-white"></i></span> -->
+                        <div class="bg-dark p-2 lh-1 rounded-circle">
+                            <img src="./assets/amazon.svg" class="" width="22" alt="">
+                        </div>
+                        <span></span>
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-dark text-center" aria-labelledby="dropdownMenuButton2">
+                        <li><a class="dropdown-item" href="#">.ng</a></li>
+                        <li><a class="dropdown-item" href="#">.in</a></li>
+                        <li><a class="dropdown-item" href="#">.uk</a></li>
+                        <li><a class="dropdown-item" href="#">.us</a></li>
+                    </ul>
+                </div>
+                
+                <span class="text-white mt-1" style="font-size: 1.5rem;"><i class="bi bi-bell-fill "></i></span>
+                
+                <div>
+                    <img class="rounded-circle" src="./assets/elizeu-dias-2EGNqazbAMk-unsplash.jpg" width="50" alt="">
+                </div>
+            </div>
+
+        </div>
+      </nav>
+
+    <div class="container">
+        <div class="col-8 py-5">
+            <h1 class="display-5 fw-bold">Hello Bryan,</h1>
+            <p class="fs-3">View overall statistics of your product below in last</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div>
+            <button type="button" class="btn btn-lg btn-outline-primary rounded-pill me-1">7 Days</button>
+            <button type="button" class="btn btn-lg btn-outline-primary rounded-pill me-1">30 Days</button>
+            <button type="button" class="btn btn-lg btn-primary rounded-pill me-1">90 Days</button>
+            <button type="button" class="btn btn-lg btn-outline-primary rounded-pill me-1">Custom 
+                <span class="small"><i class="bi bi-calendar-event-fill text-primary"></i></span>
+            </button>
+        </div>
+
+            <!-- <div>
+                
+                <i class="bi bi-caret-up-fill text-white"></i>
+                <i class="bi bi-caret-down-fill text-white"></i>
+                
+                <span class="icon"><i class="bi bi-file-earmark-text-fill text-white"></i></span>
+
+                <i class="fa-regular fa-message"></i>
+            </div> -->
+
+        <div class="row mt-4">
+            <div class="col-lg-6 dashboard-cards">
+                <div class="row">
+                    <div class="col-6 p-2">
+                        <div class="bg-dark p-3 rounded-5">
+                            <div class="d-flex align-items-center">
+                                <span class="bg-primary-transparent d-inline-flex lh-1 p-1 rounded-circle">
+                                    <i class="bi bi-archive-fill text-primary p-1"></i>
+                                </span>
+                                <span class="fs-4 fw-light ps-2 text-white-50">Stock</span>
+                            </div>
+                            <p class="figure">4,398</p>
+                        </div>
+                    </div>
+                    <div class="col-6 p-2">
+                        <div class="bg-dark p-3 rounded-5">
+                            <div class="d-flex align-items-center">
+                                <span class="bg-warning-transparent d-inline-flex lh-1 p-1 rounded-circle">
+                                    <i class="bi bi-file-earmark-text-fill text-warning p-1"></i>
+                                </span>
+                                <span class="fs-4 fw-light ps-2 text-white-50">Orders</span>
+                                <span class="ms-auto text-success">13% <i class="bi bi-caret-up-fill "></i></span>
+                            </div>
+                            <p class="figure">2,512</p>
+                        </div>
+                    </div>
+                   
+                    <div class="col-6 p-2">
+                        <div class="bg-dark p-3 rounded-5">
+                            <div class="d-flex align-items-center">
+                                <span class="bg-success-transparent d-inline-flex lh-1 p-1 rounded-circle">
+                                    <i class="bi bi-hand-thumbs-up-fill text-success p-1"></i>
+                                </span>
+                                <span class="fs-4 fw-light ps-2 text-white-50">Feedback</span>
+                                <span class="ms-auto text-warning">13% <i class="bi bi-caret-down-fill "></i></span>
+                            </div>
+                            <p class="figure">3.6k</p>
+                        </div>
+                    </div>
+                    <div class="col-6 p-2">
+                        <div class="bg-dark p-3 rounded-5">
+                            <div class="d-flex align-items-center">
+                                <span class="bg-primary-transparent d-inline-flex lh-1 p-1 rounded-circle">
+                                    <i class="bi bi-chat-left-text-fill text-primary p-1"></i>
+                                </span>
+                                <span class="fs-4 fw-light ps-2 text-white-50">Reviews</span>
+                                <span class="ms-auto text-success">1.2% <i class="bi bi-caret-up-fill "></i></span>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-between">
+                                <p class="figure">2.6k</p>
+                                <span class="text-muted fs-5">233 ASINs</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 py-3">
+                <div class="bg-dark p-3 rounded-5">
+                    <div class="d-flex align-items-center">
+                        <span class="bg-primary-transparent d-inline-flex lh-1 p-1 rounded-circle">
+                            <i class="bi bi-chat-left-text-fill text-primary p-1"></i>
+                        </span>
+                        <span class="fs-4 ps-2 text-white-50">My Workflows</span>
+                    </div>
+                    <p class="fs-3 fw-light p-4 text-white-50 text-center">You don't have any Workflows running. Create a Workflow in order to view its insights here.</p>
+                    <p class="text-center">
+                        <img src="./assets/plane.png" width="100" alt="">
+                    </p>
+                    <div class="d-flex justify-content-center py-3">
+                         <button class="btn btn-lg btn-primary px-4 rounded-pill text-center">Create a Workflow</button>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const domains = document.querySelectorAll('.country-selector li a')
+        const domainLocation = document.querySelector('.country-selector button span')
+
+        // initial domain
+        placer(domainLocation, domains[0].textContent) // 😃 naming stuff hard
+
+        // on select
+        domains.forEach(domain => {
+            domain.addEventListener('click', (e) => {
+                placer(domainLocation, e.target.textContent)
+
+            })
+        })
+
+        function placer(location, content){
+            location.textContent = content;
+        }
+        
+    </script>
+</body>
+</html>
