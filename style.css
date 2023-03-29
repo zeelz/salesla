@@ -71,3 +71,7 @@
 .dashboard-cards p.figure {
     font-size: 2.5rem;
 }
+
+.card-6 > div {
+    min-height: 500px;
+}
